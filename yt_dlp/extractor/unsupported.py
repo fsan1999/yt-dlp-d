@@ -167,7 +167,7 @@ class KnownPiracyIE(UnsupportedInfoExtractor):
     """
 
     URLS = (
-        r'dood\.(?:to|watch|so|pm|wf|re)',
+        # r'dood\.(?:to|watch|so|pm|wf|re)',
         # Sites youtube-dl supports, but we won't
         r'viewsb\.com',
         r'filemoon\.sx',

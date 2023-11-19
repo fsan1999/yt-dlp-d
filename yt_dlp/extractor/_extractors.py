@@ -484,6 +484,10 @@ from .dfb import DFBIE
 from .dhm import DHMIE
 from .digg import DiggIE
 from .dotsub import DotsubIE
+from .doodstream import (
+    DoodStreamIE,
+    Ds2playIE,
+)
 from .douyutv import (
     DouyuShowIE,
     DouyuTVIE,
