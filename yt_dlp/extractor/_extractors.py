@@ -487,6 +487,7 @@ from .dotsub import DotsubIE
 from .doodstream import (
     DoodStreamIE,
     Ds2playIE,
+    DoodMainIE,
 )
 from .douyutv import (
     DouyuShowIE,
