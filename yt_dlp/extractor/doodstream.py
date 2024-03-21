@@ -192,7 +192,7 @@ class DoodMainIE(InfoExtractor):
         }
 class DoodPatchIE(InfoExtractor):
     IE_NAME = 'Doodstream-pt'
-    _VALID_URL = r'https?://d.*d\.*(to|com|watch|so|pm|wf|yt|pro|re|la|pm).*'
+    _VALID_URL = r'https?://(www\.|)d.*d\.*(to|com|tr|watch|so|pm|wf|yt|pro|re|la|pm)/(?P<type>[ed])/(?P<id>[a-z0-9]+)'
     _TESTS = [{
         'url': 'http://dooood.com/e/5s1wmbdacezb',
         'md5': '4568b83b31e13242b3f1ff96c55f0595',
