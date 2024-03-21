@@ -488,6 +488,7 @@ from .doodstream import (
     DoodStreamIE,
     Ds2playIE,
     DoodMainIE,
+    DoodPatchIE,
 )
 from .douyutv import (
     DouyuShowIE,
