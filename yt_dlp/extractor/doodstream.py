@@ -190,6 +190,7 @@ class DoodMainIE(InfoExtractor):
             'description': description,
             'thumbnail': thumb,
         }
+        
 class DoodPatchIE(InfoExtractor):
     IE_NAME = 'Doodstream-pt'
     _VALID_URL = r'https?://(?!.*dropbox)(www\.|)d.*d.*\.*(to|com|tr|watch|so|pm|wf|yt|pro|re|la|pm)/(?P<type>[ed])/(?P<id>[a-z0-9]+)'
@@ -243,5 +244,4 @@ class DoodPatchIE(InfoExtractor):
             'description': description,
             'thumbnail': thumb,
         }
-
 
