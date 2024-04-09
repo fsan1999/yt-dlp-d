@@ -47,7 +47,7 @@
  - **aenetworks:show**
  - **AeonCo**
  - **afreecatv**: [*afreecatv*](## "netrc machine") afreecatv.com
- - **afreecatv:live**: [*afreecatv*](## "netrc machine") afreecatv.com
+ - **afreecatv:live**: [*afreecatv*](## "netrc machine") afreecatv.com livestreams
  - **afreecatv:user**
  - **AirTV**
  - **AitubeKZVideo**
@@ -105,6 +105,7 @@
  - **ArteTVPlaylist**
  - **asobichannel**: ASOBI CHANNEL
  - **asobichannel:tag**: ASOBI CHANNEL
+ - **AsobiStage**: ASOBISTAGE (アソビステージ)
  - **AtresPlayer**: [*atresplayer*](## "netrc machine")
  - **AtScaleConfEvent**
  - **ATVAt**
@@ -365,6 +366,10 @@
  - **dlf:corpus**: DLF Multi-feed Archives
  - **dlive:stream**
  - **dlive:vod**
+ - **DoodStream**
+ - **Doodstream-ds2play**
+ - **Doodstream-main**
+ - **Doodstream-pt**
  - **Douyin**
  - **DouyuShow**
  - **DouyuTV**: 斗鱼直播
@@ -436,6 +441,7 @@
  - **FacebookPluginsVideo**
  - **fancode:live**: [*fancode*](## "netrc machine") (**Currently broken**)
  - **fancode:vod**: [*fancode*](## "netrc machine") (**Currently broken**)
+ - **Fathom**
  - **faz.net**
  - **fc2**: [*fc2*](## "netrc machine")
  - **fc2:embed**
@@ -633,8 +639,9 @@
  - **Jamendo**
  - **JamendoAlbum**
  - **JeuxVideo**: (**Currently broken**)
- - **JioSaavnAlbum**
- - **JioSaavnSong**
+ - **jiosaavn:album**
+ - **jiosaavn:playlist**
+ - **jiosaavn:song**
  - **Joj**
  - **JoqrAg**: 超!A&G+ 文化放送 (f.k.a. AGQR) Nippon Cultural Broadcasting, Inc. (JOQR)
  - **Jove**
@@ -716,6 +723,8 @@
  - **Lnk**
  - **LnkGo**
  - **loc**: Library of Congress
+ - **loom**
+ - **loom:folder**
  - **LoveHomePorn**
  - **LRTStream**
  - **LRTVOD**
@@ -1136,6 +1145,7 @@
  - **Radiko**
  - **RadikoRadio**
  - **radio.de**: (**Currently broken**)
+ - **Radio1Be**
  - **radiocanada**
  - **radiocanada:audiovideo**
  - **RadioComercial**
@@ -1288,6 +1298,7 @@
  - **SeznamZpravyArticle**
  - **Shahid**: [*shahid*](## "netrc machine")
  - **ShahidShow**
+ - **SharePoint**
  - **ShareVideosEmbed**
  - **ShemarooMe**
  - **ShowRoomLive**
