@@ -23,7 +23,7 @@ class KnownDRMIE(UnsupportedInfoExtractor):
 
     Add to this list only if:
     * You are reasonably certain that the site uses DRM for ALL their videos
-    * Multiple users have asked about this site on github/reddit/discord
+    * Multiple users have asked about this site on github/discord
     """
 
     URLS = (
@@ -167,7 +167,7 @@ class KnownPiracyIE(UnsupportedInfoExtractor):
     """
 
     URLS = (
-        # r'dood\.(?:to|watch|so|pm|wf|re)',
+        r'dood\.(?:to|watch|so|pm|wf|re)',
         # Sites youtube-dl supports, but we won't
         r'viewsb\.com',
         r'filemoon\.sx',
