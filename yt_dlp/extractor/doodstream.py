@@ -99,7 +99,7 @@ class Ds2playIE(InfoExtractor):
     }]
 
     def _real_extract(self, url):
-        # video_id = self._match_id(url)
+        #video_id = self._match_id(url)
         video_id, url_type = self._match_valid_url(url).group('id', 'type')
         if url_type == 'd':
             webpage = self._download_webpage(url, video_id)
@@ -136,7 +136,6 @@ class Ds2playIE(InfoExtractor):
             'description': description,
             'thumbnail': thumb,
         }
-
 
 class DoodMainIE(InfoExtractor):
     IE_NAME = 'Doodstream-main'
@@ -154,7 +153,7 @@ class DoodMainIE(InfoExtractor):
     }]
 
     def _real_extract(self, url):
-        # video_id = self._match_id(url)
+        #video_id = self._match_id(url)
         video_id, url_type = self._match_valid_url(url).group('id', 'type')
         if url_type == 'd':
             webpage = self._download_webpage(url, video_id)
@@ -191,8 +190,7 @@ class DoodMainIE(InfoExtractor):
             'description': description,
             'thumbnail': thumb,
         }
-
-
+        
 class DoodPatchIE(InfoExtractor):
     IE_NAME = 'Doodstream-pt'
     _VALID_URL = r'https?://(?!.*dropbox)(?:www\.|)(d.*d|p.*p).*\.*(re|co|to|com|tr|watch|so|pm|wf|yt|pro|la|pm|fun|pro|meme|boo|zip)/(?P<type>[ed])/(?P<id>[a-z0-9A-Z]+)'
@@ -207,7 +205,6 @@ class DoodPatchIE(InfoExtractor):
             'thumbnail': 'https://img.doodcdn.com/snaps/flyus84qgl2fsk4g.jpg',
         }
     }]
-    
 
     def _real_extract(self, url):
         # video_id = self._match_id(url)
